@@ -12,7 +12,12 @@ app.get('/', (req, res) => {
   res.send("draw your favorite animal")
 })
 
+app.get('/nathan', (req, res) => {
+  res.send("hi")
+})
+
 // Set the application to listen a port
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}` )
 })
+
